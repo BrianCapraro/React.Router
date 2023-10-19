@@ -46,6 +46,8 @@ body > div {
 }
 
 .blue {
+  display: flex;
+  flex-direction: column;
   background-color: #275db3;
   color: white;
 }
@@ -62,4 +64,22 @@ body > div {
 .home {
   background-color: rgb(184, 184, 6);
   color: white;
+}
+
+.darkblue {
+  background-color: darkblue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.lightblue {
+  background-color: lightblue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin: 0.25em;
 }
