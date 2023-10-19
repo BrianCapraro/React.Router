@@ -1,9 +1,12 @@
 import './App.css'
-import { Link, Route } from 'react-router-dom'
-import { Routes } from 'react-router-dom'
-import Blue from './components/Blue'
-import Red from './components/Red'
-import Home from './components/Home'
+// import { Link, Route } from 'react-router-dom'
+// import { Routes } from 'react-router-dom'
+// import Blue from './components/Blue'
+// import Red from './components/Red'
+// import Home from './components/Home'
+import Nav from './components/Nav'
+import Main from './components/Main'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -13,16 +16,9 @@ function App() {
     <>
       <div id="container">
       
-      <div id="navbar">
-        <Link to = "/">home</Link>
-        <Link to = "/blue">blue</Link>
-        <Link to = "/red">red</Link>
-        </div>
-      <div id="main-section"><Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/blue" element={<Blue/>}/>
-        <Route path="/red" element={<Red/>}/>
-        </Routes></div>
+      <Nav />
+      <Main />
+      <Footer />
     </div>
     </>
   )
