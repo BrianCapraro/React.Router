@@ -13,7 +13,7 @@ function Blue() {
         <div>
           <h1>Blue!</h1>
         </div>
-        <div>
+        <div className="blueStuff">
           <h3>Use Shade: {shade}</h3>
           <button onClick={() => navigate("/blue/dark-blue")}>Dark Blue</button>
           <br />

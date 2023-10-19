@@ -3,12 +3,6 @@
   margin: 0;
 }
 
-body,
-body > div {
-  height: 100vh;
-  width: 100vw;
-}
-
 #container {
   height: 100%;
   display: flex;
@@ -22,6 +16,7 @@ body > div {
 #navbar {
   padding: 2em;
   justify-content: space-evenly;
+  height: 1em;
 }
 
 #footer {
@@ -29,12 +24,13 @@ body > div {
   justify-content: space-evenly;
 }
 
-#main-section {
+/* #main-section {
   flex-grow: 1;
-}
+} */
 
 #main-section > div {
   width: 100%;
+  height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,6 +76,15 @@ body > div {
   flex-direction: column;
 }
 
+.blueStuff {
+  display: flex;
+  flex-direction: column;
+}
+
 button {
   margin: 0.25em;
+}
+
+.squares {
+  border: solid green;
 }
